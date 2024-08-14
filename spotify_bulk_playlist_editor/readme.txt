@@ -1,0 +1,5 @@
+Disclaimer: I wrote this short program out of necessity a year ago (apparently) - I'm not even sure if it works anymore. It was written quickly and poorly, but it works. I am sharing it for educational purposes - use at your own risk!
+
+The purpose of this program is to facilitate bulk changes to your playlist titles in your Spotify account. Me and my wife used a third party service to transfer our playlists from Apple Music to Spotify, and a certain string of characters e.g. ("-2023") was unintentionally appended to the imported titles. Thus, I wrote this program to fix a few hundred playlists titles. Feel free to change the clean_playlist_names() function to your own desires.
+
+By default, it is in a safe mode that, if ran, will only display your playlist titles as-is, and will not make any changes to your Spotify Library (use at your own risk). It utilizes the Spotipy Python Library, and works with the Spotify Web API. Consequently, for this program to work, you will need to pass in your developer credentials (client ID/secret) from https://developer.spotify.com
